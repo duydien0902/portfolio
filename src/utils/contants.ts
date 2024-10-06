@@ -7,7 +7,7 @@ export const idScroll = {
   CONTACT: "contact",
   ADMIN_ASSISTANT: "admin-assistant",
   TRELLO: "trello",
-  ADMIN_USER: "admin-user",
+  ADMIN_EMPLOYEES: "admin-employees",
   PORTFOLIO: "portfolio",
   PHARMACITY: "pharmacity",
 };

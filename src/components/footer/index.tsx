@@ -3,13 +3,13 @@ import React from "react";
 
 import Container from "@/components/ui/container";
 import {
-  FacebookIcon,
+  GitIcon,
   InstagramIcon,
   MailIcon,
   MapPinIcon,
   MoveRightIcon,
   PhoneIcon,
-  TwitterIcon,
+  LinkedinIcon,
 } from "@/components/ui/icons";
 import { FOOTER } from "@/components/footer/data";
 import ButtonScroll from "@/components/button-scroll/button-scroll";
@@ -28,14 +28,18 @@ export default function Footer() {
               {FOOTER.about_me}
             </p>
             <div className="flex gap-4 md:pt-9">
-              <div className="p-3 border rounded-md cursor-not-allowed">
-                <TwitterIcon />
+              <div className="p-3 border rounded-md">
+                <Link href="https://github.com/duydien0902" target="_blank">
+                  <GitIcon className="fill-foreground" />
+                </Link>
               </div>
-              <div className="p-3 border rounded-md cursor-not-allowed">
-                <FacebookIcon />
-              </div>
-              <div className="p-3 border rounded-md cursor-not-allowed">
-                <InstagramIcon />
+              <div className="p-3 border rounded-md">
+                <Link
+                  href="https://www.linkedin.com/in/duy-dien-dao-a527a2215"
+                  target="_blank"
+                >
+                  <LinkedinIcon className="fill-foreground" />
+                </Link>
               </div>
             </div>
           </div>

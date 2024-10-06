@@ -16,6 +16,7 @@ interface ProjectCardProps {
   deployUrl: string;
   sourceUrl: string;
   isDone: boolean;
+  thumbnail: string;
 }
 
 export default function ProjectCard({
@@ -27,6 +28,7 @@ export default function ProjectCard({
   deployUrl,
   sourceUrl,
   isDone,
+  thumbnail,
 }: ProjectCardProps) {
   return (
     <div className="flex flex-col-reverse lg:flex-row gap-6 items-start">
@@ -96,7 +98,7 @@ export default function ProjectCard({
       </div>
 
       <div className="basis-full lg:basis-1/2">
-        <ProjectVideo videoUrl={videoUrl} />
+        <ProjectVideo videoUrl={videoUrl} thumbnail={thumbnail} />
       </div>
     </div>
   );
