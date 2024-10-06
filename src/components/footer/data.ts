@@ -23,8 +23,8 @@ export const FOOTER = {
       title: "admin assistant",
     },
     {
-      id: idScroll.ADMIN_USER,
-      title: "admin user",
+      id: idScroll.ADMIN_EMPLOYEES,
+      title: "admin employees",
     },
   ],
   contact: {

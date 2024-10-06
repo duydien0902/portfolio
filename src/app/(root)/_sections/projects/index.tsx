@@ -35,6 +35,7 @@ export default function ProjectsSection() {
                         deployUrl={item.deploy_url}
                         sourceUrl={item.source_url}
                         isDone={item.isDone}
+                        thumbnail={item.thumbnail}
                       />
                     </div>
                   </div>
