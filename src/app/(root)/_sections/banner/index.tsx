@@ -57,6 +57,7 @@ export default function BannerSection() {
                 className="w-full h-auto object-cover lg:object-contain"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 priority
+                unoptimized
               />
             </div>
           </div>
