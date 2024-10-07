@@ -28,7 +28,7 @@ export default function AboutMeSection() {
                 classNameTitleBg="left-[51%] -translate-x-1/2 md:-translate-x-0 md:-left-5"
                 classNameTitle="text-center md:text-left"
                 classNameDes="text-center md:text-left"
-                description="I am a frontend developer with nearly two years of experience, focusing on building high-performance web applications using ReactJS and NextJS. I’m passionate about optimizing user experiences and delivering clean, efficient code."
+                description="I am a frontend developer with two years of experience, focusing on building high-performance web applications using ReactJS and NextJS. I’m passionate about optimizing user experiences and delivering clean, efficient code."
               >
                 about me
               </Title>
